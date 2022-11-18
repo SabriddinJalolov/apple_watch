@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito+Sans:wght@600;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Raleway:wght@300&family=Roboto&family=Source+Serif+Pro:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+
+.container {
+    width: 1138px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 36px;
+    
+}
+.li_wrapper{
+    display: flex;
+    align-items: center;
+}
+.site_header_title_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.site_header_desc{
+    padding-right: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #333333;
+    
+}
+
+.question_title{
+    padding-left: 10px;
+    width: 149px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
+
+.line{
+    width: 153px;
+    height: 0px;
+    border: 1px solid #333333;
+    transform: rotate(0.16deg);
+}
